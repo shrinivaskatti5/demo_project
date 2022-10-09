@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Allowed property types:
+    double    
+    int 
+    string
+    date
+    kg    (base type double)
+    ton    (as of thousand of Kg, base type double)
+    mm    (base type double)
+    mm2    (square mm, base type double)
+    mm3    (cubic mm, base type double)
+    cm    (base type double)
+    cm2    (square cm, base type double)
+    cm3    (cubic cm, base type double)
+    m    (base type double)
+    m2    (base type double)
+    m3    (base type double)
+    in    (base type double)
+    in2    (base type double)
+    in3    (base type double)
+    ft    (base type double)
+    ft2    (base type double)
+    ft3    (base type double)
+    yard    (base type double)
+    yard2    (base type double)
+    yard3    (base type double)
+    lbs (base type double)
+    ton_short (base type double)
+    ton_long (base type double)
+    calc (indicates report type is calculated from formula)
+
+    Display type can be any string.
+
+    REPORT_property is either property name (for example "WEIGHT") or
+    formula (for example "WEIGHT / AREA"). For reference model objects, prefix "EXTERNAL."
+    is needed (for example "EXTERNAL.BaseQuantities.NetWeight").
+
+    For formula calculation report properties used have to be defined in this file. Defined property type is then
+    used for calculation. Either defined display name or report property name can be used, first matching property is used.
+-->
+<Properties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PresentedProperties
+    Decimals="2"
+    Display_type=""
+    Hidden="false"
+    Display_name="NAME"
+    Property_type="string"
+    REPORT_property_name="NAME"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="Guid"
+    Property_type="string"
+    REPORT_property_name="GUID"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="ComponentPartGuid"
+    Property_type="string"
+    REPORT_property_name=""
+    UDA_property_name="ComponentPartGuid"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="LayoutManagerObject"
+    Property_type="int"
+    REPORT_property_name=""
+    UDA_property_name="LayoutManagerObject"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="IsFieldPoint"
+    Property_type="int"
+    REPORT_property_name=""
+    UDA_property_name="IsFieldPoint"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="IsStakedoutPoint"
+    Property_type="int"
+    REPORT_property_name=""
+    UDA_property_name="IsStakedoutPoint"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="IsFieldLine"
+    Property_type="int"
+    REPORT_property_name=""
+    UDA_property_name="IsFieldLine"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="External_Guid"
+    Property_type="string"
+    REPORT_property_name=""
+    UDA_property_name="External_Guid"
+    Width="100" />
+  <PresentedProperties
+    Decimals="3"
+    Display_type=""
+    Hidden="false"
+    Display_name="TFLVA"
+    Property_type="double"
+    REPORT_property_name=""
+    UDA_property_name="TFLVA"
+    Width="100" />
+  <PresentedProperties
+    Decimals="3"
+    Display_type=""
+    Hidden="false"
+    Display_name="TFLSD"
+    Property_type="double"
+    REPORT_property_name=""
+    UDA_property_name="TFLSD"
+    Width="100" />
+</Properties>

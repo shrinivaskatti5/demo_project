@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Allowed property types:
+    double    
+    int 
+    string
+    date
+    kg    (base type double)
+    ton    (as of thousand of Kg, base type double)
+    mm    (base type double)
+    mm2    (square mm, base type double)
+    mm3    (cubic mm, base type double)
+    cm    (base type double)
+    cm2    (square cm, base type double)
+    cm3    (cubic cm, base type double)
+    m    (base type double)
+    m2    (base type double)
+    m3    (base type double)
+    in    (base type double)
+    in2    (base type double)
+    in3    (base type double)
+    ft    (base type double)
+    ft2    (base type double)
+    ft3    (base type double)
+    yard    (base type double)
+    yard2    (base type double)
+    yard3    (base type double)
+    lbs (base type double)
+    ton_short (base type double)
+    ton_long (base type double)
+    calc (indicates report type is calculated from formula)
+
+    Display type can be any string.
+
+    REPORT_property is either property name (for example "WEIGHT") or
+    formula (for example "WEIGHT / AREA"). For reference model objects, prefix "EXTERNAL."
+    is needed (for example "EXTERNAL.BaseQuantities.NetWeight").
+
+    For formula calculation report properties used have to be defined in this file. Defined property type is then
+    used for calculation. Either defined display name or report property name can be used, first matching property is used.
+-->
+<Properties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PresentedProperties
+    Decimals="2"
+    Display_type=""
+    Hidden="false"
+    Display_name="NAME"
+    Property_type="string"
+    REPORT_property_name="NAME"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="OBJECT_DESCRIPTION"
+    Property_type="string"
+    REPORT_property_name="OBJECT_DESCRIPTION"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="OBJECT_TYPE"
+    Property_type="string"
+    REPORT_property_name="OBJECT_TYPE"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="MATERIAL"
+    Property_type="string"
+    REPORT_property_name="MATERIAL"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE"
+    Property_type="string"
+    REPORT_property_name="PROFILE"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="MATERIAL_TYPE"
+    Property_type="string"
+    REPORT_property_name="MATERIAL_TYPE"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PART_POS"
+    Property_type="string"
+    REPORT_property_name="PART_POS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="ASSEMBLY_POS"
+    Property_type="string"
+    REPORT_property_name="ASSEMBLY_POS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="MAINPART.PROFILE"
+    Property_type="string"
+    REPORT_property_name="MAINPART.PROFILE"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PHASE.NAME"
+    Property_type="string"
+    REPORT_property_name="PHASE.NAME"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="TOP_LEVEL"
+    Property_type="m"
+    REPORT_property_name="TOP_LEVEL"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA"
+    Property_type="m2"
+    REPORT_property_name="AREA"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_GROSS"
+    Property_type="m2"
+    REPORT_property_name="AREA_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_NET"
+    Property_type="m2"
+    REPORT_property_name="AREA_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PLAN"
+    Property_type="m2"
+    REPORT_property_name="AREA_PLAN"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_GXY_NET"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_GXY_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_GXZ_NET"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_GXZ_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_GYZ_NET"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_GYZ_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_GXY_GROSS"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_GXY_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_GXZ_GROSS"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_GXZ_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_GYZ_GROSS"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_GYZ_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_XY_NET"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_XY_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_XZ_NET"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_XZ_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_YZ_NET"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_YZ_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_XY_GROSS"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_XY_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_XZ_GROSS"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_XZ_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PROJECTION_YZ_GROSS"
+    Property_type="m2"
+    REPORT_property_name="AREA_PROJECTION_YZ_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PGZ"
+    Property_type="m2"
+    REPORT_property_name="AREA_PGZ"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_NGZ"
+    Property_type="m2"
+    REPORT_property_name="AREA_NGZ"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PGX"
+    Property_type="m2"
+    REPORT_property_name="AREA_PGX"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_NGX"
+    Property_type="m2"
+    REPORT_property_name="AREA_NGX"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PGY"
+    Property_type="m2"
+    REPORT_property_name="AREA_PGY"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_NGY"
+    Property_type="m2"
+    REPORT_property_name="AREA_NGY"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PZ"
+    Property_type="m2"
+    REPORT_property_name="AREA_PZ"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_NZ"
+    Property_type="m2"
+    REPORT_property_name="AREA_NZ"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PX"
+    Property_type="m2"
+    REPORT_property_name="AREA_PX"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_NX"
+    Property_type="m2"
+    REPORT_property_name="AREA_NX"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_PY"
+    Property_type="m2"
+    REPORT_property_name="AREA_PY"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_NY"
+    Property_type="m2"
+    REPORT_property_name="AREA_NY"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_FORM_TOP"
+    Property_type="m2"
+    REPORT_property_name="AREA_FORM_TOP"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_FORM_BOTTOM"
+    Property_type="m2"
+    REPORT_property_name="AREA_FORM_BOTTOM"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="AREA_FORM_SIDE"
+    Property_type="m2"
+    REPORT_property_name="AREA_FORM_SIDE"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="ASSEMBLY_PLWEIGHT"
+    Property_type="kg"
+    REPORT_property_name="ASSEMBLY_PLWEIGHT"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="CAST_UNIT_REBAR_WEIGHT"
+    Property_type="kg"
+    REPORT_property_name="CAST_UNIT_REBAR_WEIGHT"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="HEIGHT"
+    Property_type="m"
+    REPORT_property_name="HEIGHT"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="LENGTH"
+    Property_type="m"
+    REPORT_property_name="LENGTH"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="LENGTH_GROSS"
+    Property_type="m"
+    REPORT_property_name="LENGTH_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="LENGTH_MAX"
+    Property_type="m"
+    REPORT_property_name="LENGTH_MAX"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="LENGTH_MIN"
+    Property_type="m"
+    REPORT_property_name="LENGTH_MIN"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.COVER_AREA"
+    Property_type="m2"
+    REPORT_property_name="PROFILE.COVER_AREA"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.CROSS_SECTION_AREA"
+    Property_type="m2"
+    REPORT_property_name="PROFILE.CROSS_SECTION_AREA"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.FLANGE_THICKNESS"
+    Property_type="m"
+    REPORT_property_name="PROFILE.FLANGE_THICKNESS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.HEIGHT_1"
+    Property_type="m"
+    REPORT_property_name="PROFILE.HEIGHT_1"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.HEIGHT_2"
+    Property_type="m"
+    REPORT_property_name="PROFILE.HEIGHT_2"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.HEIGHT_3"
+    Property_type="m"
+    REPORT_property_name="PROFILE.HEIGHT_3"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.HEIGHT_4"
+    Property_type="m"
+    REPORT_property_name="PROFILE.HEIGHT_4"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.MAJOR_AXIS_LENGTH_1"
+    Property_type="m"
+    REPORT_property_name="PROFILE.MAJOR_AXIS_LENGTH_1"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.MAJOR_AXIS_LENGTH_2"
+    Property_type="m"
+    REPORT_property_name="PROFILE.MAJOR_AXIS_LENGTH_2"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.MINOR_AXIS_LENGTH_1"
+    Property_type="m"
+    REPORT_property_name="PROFILE.MINOR_AXIS_LENGTH_1"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.MINOR_AXIS_LENGTH_2"
+    Property_type="m"
+    REPORT_property_name="PROFILE.MINOR_AXIS_LENGTH_2"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.WEB_THICKNESS"
+    Property_type="m"
+    REPORT_property_name="PROFILE.WEB_THICKNESS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.WIDTH_1"
+    Property_type="m"
+    REPORT_property_name="PROFILE.WIDTH_1"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="PROFILE.WIDTH_2"
+    Property_type="m"
+    REPORT_property_name="PROFILE.WIDTH_2"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="SUPPLEMENT_PART_WEIGHT"
+    Property_type="kg"
+    REPORT_property_name="SUPPLEMENT_PART_WEIGHT"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WEB_HEIGHT"
+    Property_type="m"
+    REPORT_property_name="WEB_HEIGHT"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WEB_LENGTH"
+    Property_type="m"
+    REPORT_property_name="WEB_LENGTH"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WEB_WIDTH"
+    Property_type="m"
+    REPORT_property_name="WEB_WIDTH"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WEIGHT"
+    Property_type="kg"
+    REPORT_property_name="WEIGHT"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WEIGHT_GROSS"
+    Property_type="kg"
+    REPORT_property_name="WEIGHT_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WEIGHT_MAX"
+    Property_type="kg"
+    REPORT_property_name="WEIGHT_MAX"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WEIGHT_MIN"
+    Property_type="kg"
+    REPORT_property_name="WEIGHT_MIN"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WEIGHT_NET"
+    Property_type="kg"
+    REPORT_property_name="WEIGHT_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="WIDTH"
+    Property_type="m"
+    REPORT_property_name="WIDTH"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="VOLUME"
+    Property_type="m3"
+    REPORT_property_name="VOLUME"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="VOLUME_GROSS"
+    Property_type="m3"
+    REPORT_property_name="VOLUME_GROSS"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="VOLUME_NET"
+    Property_type="m3"
+    REPORT_property_name="VOLUME_NET"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="NUMBER"
+    Property_type="int"
+    REPORT_property_name="NUMBER"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="2"
+    Hidden="false"
+    Display_name="Rebar Group Weight"
+    Property_type="calc"
+    REPORT_property_name="WEIGHT * NUMBER"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="Guid"
+    Property_type="string"
+    REPORT_property_name="GUID"
+    UDA_property_name=""
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="ComponentPartGuid"
+    Property_type="string"
+    REPORT_property_name=""
+    UDA_property_name="ComponentPartGuid"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="LayoutManagerObject"
+    Property_type="int"
+    REPORT_property_name=""
+    UDA_property_name="LayoutManagerObject"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="IsFieldPoint"
+    Property_type="int"
+    REPORT_property_name=""
+    UDA_property_name="IsFieldPoint"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="IsStakedoutPoint"
+    Property_type="int"
+    REPORT_property_name=""
+    UDA_property_name="IsStakedoutPoint"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="IsFieldLine"
+    Property_type="int"
+    REPORT_property_name=""
+    UDA_property_name="IsFieldLine"
+    Width="100" />
+  <PresentedProperties
+    Decimals="1"
+    Display_type=""
+    Hidden="false"
+    Display_name="External_Guid"
+    Property_type="string"
+    REPORT_property_name=""
+    UDA_property_name="External_Guid"
+    Width="100" />
+  <PresentedProperties
+    Decimals="3"
+    Display_type=""
+    Hidden="false"
+    Display_name="TFLVA"
+    Property_type="double"
+    REPORT_property_name=""
+    UDA_property_name="TFLVA"
+    Width="100" />
+  <PresentedProperties
+    Decimals="3"
+    Display_type=""
+    Hidden="false"
+    Display_name="TFLSD"
+    Property_type="double"
+    REPORT_property_name=""
+    UDA_property_name="TFLSD"
+    Width="100" />
+</Properties>

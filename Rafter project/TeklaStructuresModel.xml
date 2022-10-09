@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TeklaStructuresModels>
+<TeklaStructuresModels>
+    <Model>
+        <Name>Rafter project</Name>
+        <Designer> </Designer>
+        <Description> You can add the description from the menu Properties &gt;&gt; Project</Description>
+        <Version>21.0 Service Release 1</Version>
+        <Language>enu</Language>
+        <Template></Template>
+        <Environment>india</Environment>
+        <IsTemplate>FALSE</IsTemplate>
+        <XS_PROJECT></XS_PROJECT>
+        <XS_FIRM></XS_FIRM>
+        <XS_SYSTEM>C:\ProgramData\Tekla Structures\21.0\\environments\india\system\steel\;C:\ProgramData\Tekla Structures\21.0\\environments\india\system\;C:\ProgramData\Tekla Structures\21.0\\environments\common\system\;C:\ProgramData\Tekla Structures\21.0\\environments\co</XS_SYSTEM>
+    </Model>
+</TeklaStructuresModels>
