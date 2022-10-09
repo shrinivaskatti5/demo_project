@@ -12,6 +12,6 @@
         <IsTemplate>FALSE</IsTemplate>
         <XS_PROJECT></XS_PROJECT>
         <XS_FIRM></XS_FIRM>
-        <XS_SYSTEM>C:\ProgramData\Tekla Structures\21.0\\environments\india\system\steel\;C:\ProgramData\Tekla Structures\21.0\\environments\india\system\;C:\ProgramData\Tekla Structures\21.0\\environments\common\system\;C:\ProgramData\Tekla Structures\21.0\\environments\co</XS_SYSTEM>
+        <XS_SYSTEM>C:\TeklaStructures\21.0\\environments\india\system\steel\;C:\TeklaStructures\21.0\\environments\india\system\;C:\TeklaStructures\21.0\\environments\common\system\;C:\TeklaStructures\21.0\\environments\common\system\ConstructionManagement\</XS_SYSTEM>
     </Model>
 </TeklaStructuresModels>

@@ -1,52 +1,52 @@
 -100	TJ_HWeldPrep_det	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\TJ_BeamWeldPrepDet_thm.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\TJ_BeamWeldPrepDet_thm.bmp
 -10	BS_I_TC_BC	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_I_TC_BC.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_I_TC_BC.bmp
 -10	BS_I_TC_BC_C	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_I_TC_BC_C.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_I_TC_BC_C.bmp
 -10	BS_I_TP&C_BC_B	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_I_TP&C_BC_B.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_I_TP&C_BC_B.bmp
 -10	PG_CSHAPEFLANGE	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_PG_CSHAPEFLANGE.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_PG_CSHAPEFLANGE.bmp
 -10	BS_CH_P_C	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_CH_P_C.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_CH_P_C.bmp
 -10	BS_CH_TP_BP_B	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_CH_TP_BP_B.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_CH_TP_BP_B.bmp
 -10	BS_CH_TP_BP_C	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_C_TP_BP_C.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_C_TP_BP_C.bmp
 -10	BS_C_B	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_C_B.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_C_B.bmp
 -10	BS_C_C	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_C_C.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_C_C.bmp
 -10	BS_C_C1	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_C_C.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_C_C.bmp
 -10	BS_C_TP_BP_B	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_C_TP_BP_B.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_C_TP_BP_B.bmp
 -10	BS_C_TP_BP_C	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_BS_C_TP_BP_C.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_BS_C_TP_BP_C.bmp
 -100	FIRE_PROOF	All
 THUMBNAIL	IND_Fire_proof_tn.bmp
 -1000	Chevron_Beam_Beam	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\ChevronBM_BM.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\ChevronBM_BM.bmp
 -100	Chevron_Bottom	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\ChevronBM_Base.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\ChevronBM_Base.bmp
 -1000	WT_HorzBrace	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\WTHorz_Brace.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\WTHorz_Brace.bmp
 -10	Nut	All
 THUMBNAIL	NUT.bmp
 -10000	ES	All
 -10000	ZPURLIN	All
 -100	PipeWeldPrepDetail_r3	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\PipeWeldPrep_thm1.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\PipeWeldPrep_thm1.bmp
 -10	PG_ANGLES_B	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_PG_ANGLES_B.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_PG_ANGLES_B.bmp
 -10	PG_TP_BP_B	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_PG_TP_BP_B.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_PG_TP_BP_B.bmp
 -10	PG_TP_BP_C	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\et_element_PG_TP_BP_C.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\et_element_PG_TP_BP_C.bmp
 -1000	PostCut	All
 -10	safegrid	All
-THUMBNAIL	D:\Model files\Rafter project\attributes\safegrid.bmp
+THUMBNAIL	D:\personal\manoj -B\model\Rafter project\Rafter project\attributes\safegrid.bmp
 -1000	Sagrod	All
 THUMBNAIL	IND_sag-rod1_tn.bmp
 -1000	Side Runner (1R)	All

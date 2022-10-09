@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TeklaStructuresModels>
+<TeklaStructuresModels>
+    <Model>
+        <Name>Rafter project</Name>
+        <Designer> </Designer>
+        <Description> You can add the description from the menu Properties &gt;&gt; Project</Description>
+        <Version>21.0 Service Release 1</Version>
+        <Environment>india</Environment>
+        <Language>enu</Language>
+    </Model>
+</TeklaStructuresModels>
